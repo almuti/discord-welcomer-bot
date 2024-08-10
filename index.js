@@ -89,19 +89,19 @@ client.on('guildMemberAdd', async member => {
         .addComponents(
             new MessageButton()
                 .setStyle('LINK')
-                .setURL('https://www.youtube.com/@wick_studio')       // link to button 1
-                .setLabel('YouTube')                                 // name of button 1
-                .setEmoji('<:Youtubee:1158819353953828984>'),       // emoji of button 1
+                .setURL('https://www.twitch.tv/ifahad_ix')       // link to button 1
+                .setLabel('twitch')                                 // name of button 1
+                .setEmoji('<:twitch:1246870993134424165> '),       // emoji of button 1
             new MessageButton()
                 .setStyle('LINK')
-                .setURL('https://github.com/wickstudio')           // link to button 2
-                .setLabel('GitHub')                               // name of button 2
-                .setEmoji('<:Github:1132413518348566589>'),      // emoji of button 2
+                .setURL('https://discord.gg/646')           // link to button 2
+                .setLabel('64. ™')                               // name of button 2
+                .setEmoji(':0581370F593D4C56B9B850BFDB283196: '),      // emoji of button 2
             new MessageButton()
                 .setStyle('LINK')
-                .setURL('https://wickdev.xyz/')                // link to button 3
-                .setLabel('Website')                          // name of button 3
-                .setEmoji('<:web:1129345172333932595>')      // emoji of button 3
+                .setURL('https://www.tiktok.com/@boc.4')                // link to button 3
+                .setLabel('tiktok')                          // name of button 3
+                .setEmoji('<:TikTok:1174356848711839804> ')      // emoji of button 3
         );
 
     welcomeChannel.send({ embeds: [welcomeEmbed], components: [row] });
